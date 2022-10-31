@@ -52,7 +52,7 @@
 }
 
 .list-item,
-.todo-section__title,      /*--------непонять*/
+.todo-section__title,
 .completed-section__title {
   list-style: none;
 }
