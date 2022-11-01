@@ -41,6 +41,7 @@
   width: 56%;
 }
 
+
 .add-section__container {
   display: flex;
 }
@@ -72,8 +73,20 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3a3a;
+}
+
+.add-section__button,
+.list-item__edit-button,
+.list-item__delete-button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
 }
 /* Heading */
 
